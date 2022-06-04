@@ -1,0 +1,41 @@
+
+
+                /*TABLET VERSION */
+
+
+@media screen and (min-width:768px) and (max-width: 992px) {               
+
+    /* ESPACE HEBERGEMENTS */
+
+    #HebergementsEtPopulaire {
+        height:auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #HebergementsArticle {
+        width:95%;
+        height: 650px;
+        margin: auto;
+    }
+    
+    .HebergementsBox {
+        margin-bottom:10px;
+    }
+
+    #HebergementsTotal {
+        margin:0 10px 10px 10px;
+    }
+
+    /* ESPACE LES PLUS POPULAIRES*/
+
+    aside {
+        width:95%;
+        margin:auto;
+        margin-bottom:30px;
+    }
+
+    .EtoileSideBar {
+        margin-top:50px;
+    }
+}

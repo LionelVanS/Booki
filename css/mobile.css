@@ -1,0 +1,275 @@
+
+
+                /*MOBILE VERSION */
+
+
+@media screen and (max-width: 767px) {
+    
+    /* REGLES GENERALES */
+    
+    main {
+        margin:0;
+    }
+
+    h1 {
+        margin: 15px 20px 0 20px;
+    }
+
+
+    /* HEADER */
+
+    header {
+        width:100%;
+        height:auto;
+        flex-direction: column;
+    }
+    
+    header ul {
+        width:100%;
+        padding:0;
+    }
+    
+    header li {
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header li {
+        justify-content:center;
+    }
+    
+    nav {
+        width:100%;
+    }
+    
+    nav a:hover:before {
+        display: none;
+    }
+    
+    nav a:hover:after {
+        width: 100%;
+        height:3px;
+        content:"";
+        background-color: #0065FC;
+        position: absolute;
+        top:40px; left:0;
+    }
+    
+    nav a:after {
+        width:100%;
+        height:3px;
+        content:"";
+        background-color: #F2F2F2;
+        position:absolute;
+        top:40px; left:0;
+    }
+    
+    
+    /* RECHERCHE */
+    
+
+    #TexteSousTitre {
+        margin: 10px 20px 15px 20px;
+    }
+    
+    form {
+        width:90%;
+        margin-left:20px;
+        margin-bottom: 30px;
+    }
+
+    form input {
+        width: 100%;
+        border-radius: 0 15px 15px 0;
+    }
+
+    #TexteRecherche {
+        display: none;
+    }
+
+    #LoupeRecherche {
+        width:55px; 
+        height:50px;
+        display:block;
+        margin-left:-46px;
+        padding: 15px;
+        border:0;
+        border-radius: 15px;
+        background-color: #0065FC;
+        color:white;
+    }
+
+
+    /* ESPACE FILTRE */
+    
+    
+    .FiltresTexte {
+        position:unset;
+        margin-left:20px;
+    }
+
+    #Filtres {
+        width:100%;
+        flex-wrap:wrap;
+        margin:0;
+    }
+
+    #Info {
+        height:16px;
+        margin: 0 20px 50px 20px;
+    }
+
+
+    /* ESPACE LES PLUS POPULAIRE */
+    
+    
+    #HebergementsArticle {
+        width:100%;
+        margin: auto;
+        border-radius: 0;
+    }
+    
+    aside {
+        width:100%;
+        margin:auto;
+        margin-bottom:30px;
+        border-radius:0;
+    }
+
+    #Populaire {
+        margin-top:15px;
+    }
+
+    #SideBarTotal {
+        margin: 0 ;    
+    }
+
+    .SideBarBox {
+        width:90%;
+    }
+
+    .EtoileSideBar {
+        margin-top:50px;
+    }
+
+
+    /* ESPACE HEBERGEMENTS */
+
+
+    #HebergementsEtPopulaire {
+        height:auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    
+    #HebergementsEtPopulaire h2 {
+        margin: 10px 0 30px 20px;
+    }
+
+
+    #HebergementsArticle {
+        width:100%;
+        background-color: unset;
+    }
+
+    #HebergementsTotal {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .HebergementsBox {
+        width:90%;
+        height: 240px;
+        margin:auto;
+        margin-bottom:30px;
+    }
+
+    .HebergementsBox img {
+        height:160px;
+    }
+
+    .HebergementsEtoiles {
+        margin-top:0;
+    }
+
+    #AfficherPlus {
+        margin-left:20px;
+    }
+
+
+    /* ESPACE ACTIVITES A MARSEILLE */
+
+
+    #ActivitesSection {
+        margin-left: 20px;
+    }
+
+    #Activites {
+        width:95%;
+        height:auto;
+        flex-direction: column;
+        margin-top:30px;
+    }
+
+    .ActivitesStyleLarge {
+        width: 100%;
+        height: 226px;
+        margin:0 0 30px 0;
+    }
+    
+    .ActivitesStyleLarge img {
+        height: 160px;
+    }
+    
+    .ActivitesBoxDouble {
+        width:100%;
+        height:auto;
+        margin:0;
+    }
+    
+    .ActivitesStyleMedium {
+        width:100%;
+        height:226px;
+        margin-bottom: 30px;
+    }
+    
+    .ActivitesStyleMedium img {
+        height:160px;
+    }
+    
+    .ActivitesStyleSmall {
+        width:100%;
+        height:226px;
+        margin-bottom: 30px;
+    }
+    
+    .ActivitesStyleSmall img {
+        height:160px;
+    }
+    
+    #Activites h3 {
+        margin:20px 0 0 25px;
+    }
+
+
+    /* FOOTER */
+
+
+    footer {
+        width:100%;
+        flex-direction: column;
+    }
+
+    .FooterListe {
+        width:100%;
+    }
+
+    footer ul {
+        margin-bottom:10px;
+    }
+
+    footer h4 {
+        margin:50px 0 10px 40px;
+    }
+}
